@@ -35,8 +35,8 @@ public class HomeTests extends BasePage {
         HomePage.ClickOnHomeButton();
         String actualResult = driver.findElement(By.id("responsive-navbar-nav")).getAttribute("innerText");
         System.out.println(actualResult);
-        Assert.assertTrue(actualResult.contains("beetle"));
+        Assert.assertTrue(actualResult.contains("Hi beetle"));
     }
 
-    }
+}
 
